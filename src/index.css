@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 270 100% 4%;
+    --foreground: 270 20% 95%;
+
+    --card: 270 60% 6%;
+    --card-foreground: 270 20% 95%;
+
+    --popover: 270 60% 6%;
+    --popover-foreground: 270 20% 95%;
+
+    --primary: 280 80% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 270 30% 15%;
+    --secondary-foreground: 270 20% 90%;
+
+    --muted: 270 30% 12%;
+    --muted-foreground: 270 15% 55%;
+
+    --accent: 330 80% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 270 30% 15%;
+    --input: 270 30% 15%;
+    --ring: 280 80% 60%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 270 60% 5%;
+    --sidebar-foreground: 270 10% 80%;
+    --sidebar-primary: 280 80% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 30% 12%;
+    --sidebar-accent-foreground: 270 10% 80%;
+    --sidebar-border: 270 30% 15%;
+    --sidebar-ring: 280 80% 60%;
+  }
+
+  .dark {
+    --background: 270 100% 3%;
+    --foreground: 270 20% 95%;
+
+    --card: 270 60% 5%;
+    --card-foreground: 270 20% 95%;
+
+    --popover: 270 60% 5%;
+    --popover-foreground: 270 20% 95%;
+
+    --primary: 280 80% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 270 30% 12%;
+    --secondary-foreground: 270 20% 90%;
+
+    --muted: 270 30% 10%;
+    --muted-foreground: 270 15% 55%;
+
+    --accent: 330 80% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 270 30% 12%;
+    --input: 270 30% 12%;
+    --ring: 280 80% 60%;
+    --sidebar-background: 270 60% 4%;
+    --sidebar-foreground: 270 10% 80%;
+    --sidebar-primary: 280 80% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 30% 10%;
+    --sidebar-accent-foreground: 270 10% 80%;
+    --sidebar-border: 270 30% 12%;
+    --sidebar-ring: 280 80% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 0, 20, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 85, 247, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 85, 247, 0.5);
+}
