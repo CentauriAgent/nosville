@@ -272,7 +272,7 @@ function PhotoGallery() {
 }
 
 const Index = () => {
-  const siteUrl = 'https://nosville-2027.surge.sh';
+  const siteUrl = 'https://nosville.live';
   const ogImage = 'https://image.nostr.build/4f4bf11b81647ac81cf8575ca255f8b2523b74842a77b454ca5c680eb1848262.jpg';
   const title = 'NosVille 2027 — The Exclusive Nostr Event of Bitcoin 2027';
   const description = 'Join the Nostr community for an unforgettable event in Nashville. Live V4V music, DJs, education, onboarding, and networking. July 15-17, 2027 — Nashville, TN.';
