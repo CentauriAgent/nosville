@@ -541,15 +541,9 @@ const Index = () => {
           {/* Venue link */}
           <AnimatedSection>
             <div className="text-center">
-              <a
-                href="https://www.weallscream.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors font-medium"
-              >
+              <span className="inline-flex items-center gap-2 text-pink-400/70 font-medium">
                 Venue details coming soon
-                <ExternalLink className="w-4 h-4" />
-              </a>
+              </span>
             </div>
           </AnimatedSection>
         </div>
