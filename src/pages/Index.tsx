@@ -34,7 +34,7 @@ const DJ_BOOTH_2 = 'https://blossom.ditto.pub/f601a084861d4cf0dace08ac13e4e2caf2
 const TUNESTR_PHOTO = 'https://blossom.ditto.pub/72954a27485829472f226a2dd3e34e054da5342224d38ecbde81f6a83671453f.jpeg';
 const LIVE_STAGE = 'https://blossom.ditto.pub/4767aa6657be925beb258ff35fc09f7a8764b69ba3ec234c8aea318ca18609b9.jpeg';
 const NEON_SIGN = 'https://blossom.ditto.pub/2f2dd3b1b1ce2494956b400d18af2b4d27ae71603d105dc7f6e79f9d3fb6c810.jpeg';
-const TICKET_IMG = 'https://blossom.primal.net/3e3bd1a79db7c8be7f4ccdb71808c9ad5d86c1e1f3e8f18ead39dd5b84108965.jpg';
+const TICKET_IMG = '/nosville-2027-banner.jpg';
 
 const TICKET_URL = '#';
 
