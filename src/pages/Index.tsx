@@ -27,7 +27,7 @@ import {
 } from 'lucide-react';
 
 // Image URLs
-const HERO_BG = 'https://blossom.ditto.pub/6736c9c0faaeb7d6959c325e4620ab9ab113603bfdec102ed8633b541eccc093.jpeg';
+const HERO_BG = '/nosville-2027-banner.jpg';
 const NOSTRICH = 'https://blossom.primal.net/93619b5fe46b04bc12e37977cfd8637475057c29322948eec0e835e1ab13c1be.jpg';
 const DJ_BOOTH_1 = 'https://blossom.ditto.pub/41336f3e4929e1627f13250c025f2bfb9b8294f465d7d5f95508360a68b32d38.jpeg';
 const DJ_BOOTH_2 = 'https://blossom.ditto.pub/f601a084861d4cf0dace08ac13e4e2caf21371f51134d0c722a617c85733e290.jpeg';
