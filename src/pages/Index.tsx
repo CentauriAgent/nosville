@@ -487,7 +487,7 @@ const Index = () => {
                     <div className="absolute inset-0 bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-400" />
                     <div className="absolute inset-0 bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-300 opacity-0 group-hover:opacity-100 transition-opacity" />
                     <Ticket className="relative z-10 w-6 h-6 text-black" />
-                    <span className="relative z-10 text-black">Contact v4v@tunestr.io</span>
+                    <span className="relative z-10 text-black">Contact Us</span>
                     <ArrowRight className="relative z-10 w-6 h-6 text-black group-hover:translate-x-1 transition-transform" />
                   </a>
                   <p className="mt-4 text-sm text-purple-300/40 flex items-center gap-2">
@@ -821,7 +821,7 @@ const Index = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-400" />
                   <div className="absolute inset-0 bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-300 opacity-0 group-hover:opacity-100 transition-opacity" />
                   <Ticket className="relative z-10 w-6 h-6 text-black" />
-                  <span className="relative z-10 text-black">Contact v4v@tunestr.io</span>
+                  <span className="relative z-10 text-black">Contact Us</span>
                   <ArrowRight className="relative z-10 w-6 h-6 text-black group-hover:translate-x-1 transition-transform" />
                 </a>
               </div>
@@ -858,7 +858,7 @@ const Index = () => {
           <div>
             <h2 className="text-3xl sm:text-4xl font-black mb-2">
               <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">NOS</span>
-              <span className="bg-gradient-to-r from-amber-400 to-orange-400 bg-clip-text text-transparent">VEGAS</span>
+              <span className="bg-gradient-to-r from-amber-400 to-orange-400 bg-clip-text text-transparent">VILLE</span>
             </h2>
             <p className="text-purple-200/50 text-sm">
               The Exclusive Nostr Event of Bitcoin 2027 · Coming Soon
